@@ -1,10 +1,10 @@
 // This file is where all the route/controller mappings occur
 
 import { Router } from "express";
-import dataSourceController from "./controllers/dataSourceController";
+import connectionController from "./controllers/connectionController";
 
 let router = Router();
 
-router.use("/datasource", dataSourceController);
+router.use("/connection", connectionController);
 
 export default router;
